@@ -16,7 +16,7 @@ da te selezionato nei minimi dettagli.</description>
 <gap:plugin name="com.sharinglabs.cordova.plugin.cache"  />
     <gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="org.apache.cordova.network-information" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+	<gap:plugin name="org.apache.cordova.plugin.inappbrowser" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.1.1"/>
 	<gap:plugin name="org.apache.cordova.core.vibration" />
 	<gap:plugin name="org.apache.cordova.core.dialogs" />
