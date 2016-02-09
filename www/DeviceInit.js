@@ -43,7 +43,7 @@ function DeviceInitializator() {
   function errorHandler(error) {
     //$("#app-status-ul").append('<li>error:'+ error +'</li>');
     //alert("errore");
-    alert(error);
+    console.log(error);
   }
 
   function getTpID() {
@@ -81,7 +81,7 @@ function DeviceInitializator() {
 
       // se lo script cordova.js e' incluso
       if (typeof Connection !== 'undefined') {
-        if (navigator.connection.type == Connection.NONE)
+        if (navigator.connection.type == Connection.NONE || navigator.connection.type == Connection.UNKNOWN)
           location.href = "no_connection.html";
       }
 
@@ -152,7 +152,7 @@ function DeviceInitializator() {
     tp = new TP_MobileEngine();
 
   }).fail(function () {
-    alert("Qualcosa non va codroipo ornando campa");
+    console.log("Qualcosa non va codroipo ornando campa");
   });
 }
 
