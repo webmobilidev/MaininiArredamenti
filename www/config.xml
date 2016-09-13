@@ -13,8 +13,8 @@ da te selezionato nei minimi dettagli.</description>
     <author email="debora@mainini.it" href="http://www.mainini.it">
         Mainini Arreda
     </author>
-
-	<gap:plugin name="com.sharinglabs.cordova.plugin.cache"  />
+    
+	<gap:plugin name="com.sharinglabs.cordova.plugin.cache" />
 	<gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
@@ -51,14 +51,14 @@ da te selezionato nei minimi dettagli.</description>
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
-    <preference name='phonegap-version' />
+    <preference name='phonegap-version' value="cli-5.2.0"/>
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
 		<true/>
 	</gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
 		<false/>
-	</gap:config-file>	
-
+	</gap:config-file>
+	
     <icon src="icons.png" />
     <icon gap:density="ldpi" gap:platform="android" src="res/icons/android/icon-36-ldpi.png" />
     <icon gap:density="mdpi" gap:platform="android" src="res/icons/android/icon-48-mdpi.png" />
@@ -95,5 +95,6 @@ da te selezionato nei minimi dettagli.</description>
 	<gap:splash gap:platform="ios" width="1536" height="2008" src="res/screen/ios/screen-ipad-portrait-2x.png"  />
 	<gap:splash gap:platform="ios" width="2008" height="1536" src="res/screen/ios/screen-ipad-landscape-2x.png"  />	
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
-   
+    
+	
 </widget>
