@@ -7,38 +7,38 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-custom-config": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
-        },
-        "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
         },
         "phonegap-plugin-push": {
             "SENDER_ID": "xxxxx",
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-custom-config": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
         }
     },
     "dependent_plugins": {
         "es6-promise-plugin": {
-            "PACKAGE_NAME": "com.designbest.maininiarredamenti"
+            "PACKAGE_NAME": "com.maininiarredamenti.MaininiArredamenti"
         }
     }
 }
